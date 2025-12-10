@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clonar o repositorio') {
             steps {
-                git branch: 'main', url: 'https://github.com/mauriciofeoli/testes-e2e-ebac-shop'
+                git branch: 'main', url: 'https://github.com/mauriciofeoli/testes-e2e-ebac-shop.git'
             }
         }
 
